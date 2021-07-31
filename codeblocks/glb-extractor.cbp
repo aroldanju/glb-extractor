@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="glb-extractor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../build/debug/glb-extractor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../build/debug/" />
+				<Option object_output="../obj/debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="src" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../build/release/glb-extractor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../build/release/" />
+				<Option object_output="../obj/release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="src" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../src/encoder.cpp" />
+		<Unit filename="../src/encoder.h" />
+		<Unit filename="../src/glb.cpp" />
+		<Unit filename="../src/glb.h" />
+		<Unit filename="../src/glbencoder.cpp" />
+		<Unit filename="../src/glbencoder.h" />
+		<Unit filename="../src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
