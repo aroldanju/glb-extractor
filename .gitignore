@@ -3,3 +3,6 @@ data/
 obj/
 codeblocks/*.depend
 codeblocks/*.layout
+.idea/
+cmake-build-debug/
+
