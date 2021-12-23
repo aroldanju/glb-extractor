@@ -5,4 +5,4 @@ codeblocks/*.depend
 codeblocks/*.layout
 .idea/
 cmake-build-debug/
-
+cmake-build-release/
